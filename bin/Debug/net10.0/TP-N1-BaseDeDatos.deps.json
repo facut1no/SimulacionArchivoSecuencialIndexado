@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TP-N1-BaseDeDatos/1.0.0": {
+        "runtime": {
+          "TP-N1-BaseDeDatos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP-N1-BaseDeDatos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

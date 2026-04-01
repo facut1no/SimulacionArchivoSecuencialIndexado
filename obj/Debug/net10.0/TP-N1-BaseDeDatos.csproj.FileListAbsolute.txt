@@ -1,0 +1,14 @@
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.AssemblyInfoInputs.cache
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.AssemblyInfo.cs
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.csproj.CoreCompileInputs.cache
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\bin\Debug\net10.0\TP-N1-BaseDeDatos.exe
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\bin\Debug\net10.0\TP-N1-BaseDeDatos.deps.json
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\bin\Debug\net10.0\TP-N1-BaseDeDatos.runtimeconfig.json
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\bin\Debug\net10.0\TP-N1-BaseDeDatos.dll
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\bin\Debug\net10.0\TP-N1-BaseDeDatos.pdb
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.dll
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\refint\TP-N1-BaseDeDatos.dll
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.pdb
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.genruntimeconfig.cache
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\ref\TP-N1-BaseDeDatos.dll
