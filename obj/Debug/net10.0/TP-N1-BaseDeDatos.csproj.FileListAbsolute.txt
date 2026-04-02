@@ -12,3 +12,4 @@ C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\ref
 C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.pdb
 C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.genruntimeconfig.cache
 C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\ref\TP-N1-BaseDeDatos.dll
+C:\facu\CsharpProjects\TP-N1-BaseDeDatos\TP-N1-BaseDeDatos\obj\Debug\net10.0\TP-N1-BaseDeDatos.sourcelink.json

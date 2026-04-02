@@ -4,7 +4,7 @@ internal sealed record Record<T>(int Id = 0, T? Data = default, int? Direction =
 {
     public int Id { get; } = Id;
     public T? Data { get; } = Data;
-    public int? Direction { get; } = Direction;
+    public int? Direction { get; set; } = Direction;
 
     public override string ToString()
     {
