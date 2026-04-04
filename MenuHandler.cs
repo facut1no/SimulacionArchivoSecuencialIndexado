@@ -49,6 +49,7 @@ internal static class MenuHandler
   {
     var file = CreateFile();
     int option;
+    Console.WriteLine();
     while (true)
     {
       PrintMenu();
@@ -81,7 +82,7 @@ internal static class MenuHandler
           Console.WriteLine("Ingrese una opcion valida.");
           break;
       }
-      Console.WriteLine("Presione Enter para continuar.");
+      Console.WriteLine("\nPresione Enter para continuar.");
       Console.ReadKey();
     }
   }

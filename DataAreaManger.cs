@@ -48,7 +48,7 @@ internal sealed class DataAreaManager<T>(Record<T>[] Data, int N, int PMAX)
 
     if (isLast)
     {
-      if (numberOfRecords >= (_N / 2))
+      if (numberOfRecords >= Math.Ceiling((decimal)(_N / 2d)))
         return InsertCreatingBlock(record);
       else
         return InsertNormal(record, blockDirection.Value, isLast);
@@ -121,7 +121,7 @@ internal sealed class DataAreaManager<T>(Record<T>[] Data, int N, int PMAX)
   private DataInsertResult InsertCreatingBlock(Record<T> record)
   {
     var blockDirection = CantBlocks * _N;
-    if (blockDirection > _PMAX)
+    if (blockDirection >= _PMAX)
       return new DataInsertResult(DataInsertState.DataAreaFull, -1);
 
     _data[blockDirection] = record;

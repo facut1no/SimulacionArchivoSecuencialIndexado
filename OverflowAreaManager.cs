@@ -47,7 +47,7 @@ internal sealed class OverflowAreaManager<T>(Record<T>[] Data, int OVER, int OMA
 
   public OverflowInsertResult Insert(Record<T> record, Record<T> lastRecordBlock)
   {
-    if (_lastPosition > _OMAX)
+    if (_lastPosition >= _OMAX)
       return OverflowInsertResult.OverflowFull;
 
     if (lastRecordBlock.Direction is null)
@@ -61,7 +61,7 @@ internal sealed class OverflowAreaManager<T>(Record<T>[] Data, int OVER, int OMA
     if (lastRecordChain is null)
       return OverflowInsertResult.DirectionOverflowInvalid;
 
-    lastRecordBlock.Direction = _lastPosition;
+    lastRecordChain.Direction = _lastPosition;
     _Data[_lastPosition] = record;
     _lastPosition++;
     return OverflowInsertResult.InsertOverflow;
