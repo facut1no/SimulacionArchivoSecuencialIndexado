@@ -83,9 +83,9 @@ internal sealed class OverflowAreaManager<T>(Record<T>[] Data, int OVER, int OMA
         continue;
 
       if (r.Direction is not null)
-        sb.AppendLine($"{i}: [{r.Id} → {r.Direction}]");
+        sb.AppendLine($"{i}: [ {r.Id}  →  {r.Direction} ]");
       else
-        sb.AppendLine($"{i}: [{r.Id}]");
+        sb.AppendLine($"{i}: [ {r.Id} ]");
     }
 
     return sb.ToString();

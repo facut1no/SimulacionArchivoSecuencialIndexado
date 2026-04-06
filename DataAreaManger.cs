@@ -17,8 +17,6 @@ internal record DataInsertResult(
 
 internal sealed class DataAreaManager<T>(Record<T>[] Data, int N, int PMAX)
 {
-
-
   private readonly Record<T>[] _data = Data;
   private readonly int _N = N;
   private readonly int _PMAX = PMAX;
@@ -167,14 +165,14 @@ internal sealed class DataAreaManager<T>(Record<T>[] Data, int N, int PMAX)
 
         if (r is null)
         {
-          sb.Append("[ ] ");
+          sb.Append("[  ] ");
         }
         else
         {
           if (r.Direction is not null)
-            sb.Append($"[{r.Id}|→{r.Direction}] ");
+            sb.Append($"[ {r.Id} -→ {r.Direction} ] ");
           else
-            sb.Append($"[{r.Id}] ");
+            sb.Append($"[ {r.Id} ] ");
         }
       }
 
