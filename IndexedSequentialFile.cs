@@ -1,8 +1,4 @@
-﻿using System.ComponentModel;
-using System.Diagnostics;
-using System.Linq.Expressions;
-using System.Text;
-using System.Transactions;
+﻿using System.Text;
 
 namespace TP_N1_BaseDeDatos;
 
@@ -51,9 +47,11 @@ internal sealed class IndexedSequentialFile<T>
     switch (resultInserdData.State)
     {
       case DataInsertState.NewBlockCreated:
+        Console.WriteLine("Se creo un nuevo bloque, y se inserto el dato.");
         _indexArea.AddIndexRow(record.Id, blockDirection!.Value);
         break;
       case DataInsertState.FirstRecordChanged:
+        Console.WriteLine("Cambio el primer registro de un bloque.");
         var firstId = _dataAreaManager.GetIdFirstRecord(blockDirection!.Value);
         _indexArea.ModifyKeyBlock(firstId!.Value, blockDirection.Value);
         break;
@@ -88,7 +86,6 @@ internal sealed class IndexedSequentialFile<T>
   public override string ToString()
   {
     var sb = new StringBuilder();
-
     sb.AppendLine(_indexArea.ToString());
     sb.AppendLine(_dataAreaManager.ToString());
     sb.AppendLine(_overflowAreaManager.ToString());
